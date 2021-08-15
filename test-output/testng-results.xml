@@ -1,123 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="264631" started-at="2021-08-14T14:44:11Z" finished-at="2021-08-14T14:48:35Z">
+  <suite name="Default suite" duration-ms="72594" started-at="2021-08-15T10:48:40Z" finished-at="2021-08-15T10:49:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="264631" started-at="2021-08-14T14:44:11Z" finished-at="2021-08-14T14:48:35Z">
-      <class name="org.testing.TestScripts.TC8">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC8@5223e5ee]" name="before" is-config="true" duration-ms="8563" started-at="2021-08-14T20:18:06Z" finished-at="2021-08-14T20:18:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC8@5223e5ee]" name="test1" duration-ms="20247" started-at="2021-08-14T20:18:15Z" finished-at="2021-08-14T20:18:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC8@5223e5ee]" name="after" is-config="true" duration-ms="257" started-at="2021-08-14T20:18:35Z" finished-at="2021-08-14T20:18:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC8 -->
-      <class name="org.testing.TestScripts.TC7">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC7@6ef888f6]" name="before" is-config="true" duration-ms="7657" started-at="2021-08-14T20:17:40Z" finished-at="2021-08-14T20:17:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC7@6ef888f6]" name="test1" duration-ms="18779" started-at="2021-08-14T20:17:47Z" finished-at="2021-08-14T20:18:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC7@6ef888f6]" name="after" is-config="true" duration-ms="232" started-at="2021-08-14T20:18:06Z" finished-at="2021-08-14T20:18:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC7 -->
-      <class name="org.testing.TestScripts.TC4">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC4@7880cdf3]" name="before" is-config="true" duration-ms="9267" started-at="2021-08-14T20:15:45Z" finished-at="2021-08-14T20:15:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC4@7880cdf3]" name="test1" duration-ms="22339" started-at="2021-08-14T20:15:54Z" finished-at="2021-08-14T20:16:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC4@7880cdf3]" name="after" is-config="true" duration-ms="228" started-at="2021-08-14T20:16:16Z" finished-at="2021-08-14T20:16:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC4 -->
-      <class name="org.testing.TestScripts.TC3">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC3@36c88a32]" name="before" is-config="true" duration-ms="9387" started-at="2021-08-14T20:15:16Z" finished-at="2021-08-14T20:15:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC3@36c88a32]" name="test1" duration-ms="19496" started-at="2021-08-14T20:15:25Z" finished-at="2021-08-14T20:15:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC3@36c88a32]" name="after" is-config="true" duration-ms="234" started-at="2021-08-14T20:15:45Z" finished-at="2021-08-14T20:15:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC3 -->
-      <class name="org.testing.TestScripts.TC6">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC6@1c93084c]" name="before" is-config="true" duration-ms="8174" started-at="2021-08-14T20:16:54Z" finished-at="2021-08-14T20:17:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC6@1c93084c]" name="test1" duration-ms="37123" started-at="2021-08-14T20:17:02Z" finished-at="2021-08-14T20:17:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC6@1c93084c]" name="after" is-config="true" duration-ms="210" started-at="2021-08-14T20:17:39Z" finished-at="2021-08-14T20:17:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC6 -->
-      <class name="org.testing.TestScripts.TC5">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC5@5be6e01c]" name="before" is-config="true" duration-ms="8582" started-at="2021-08-14T20:16:17Z" finished-at="2021-08-14T20:16:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC5@5be6e01c]" name="test1" duration-ms="28585" started-at="2021-08-14T20:16:25Z" finished-at="2021-08-14T20:16:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC5@5be6e01c]" name="after" is-config="true" duration-ms="243" started-at="2021-08-14T20:16:54Z" finished-at="2021-08-14T20:16:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC5 -->
-      <class name="org.testing.TestScripts.TC2">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC2@ef9296d]" name="before" is-config="true" duration-ms="9212" started-at="2021-08-14T20:14:46Z" finished-at="2021-08-14T20:14:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC2@ef9296d]" name="test1" duration-ms="19851" started-at="2021-08-14T20:14:56Z" finished-at="2021-08-14T20:15:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC2@ef9296d]" name="after" is-config="true" duration-ms="333" started-at="2021-08-14T20:15:15Z" finished-at="2021-08-14T20:15:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.testing.TestScripts.TC2 -->
+    <test name="Default test" duration-ms="72594" started-at="2021-08-15T10:48:40Z" finished-at="2021-08-15T10:49:52Z">
       <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.testing.TestScripts.TC1@4386f16]" name="before" is-config="true" duration-ms="9712" started-at="2021-08-14T20:14:11Z" finished-at="2021-08-14T20:14:20Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.testing.TestScripts.TC1@60d8c9b7]" name="init" is-config="true" duration-ms="11490" started-at="2021-08-15T16:18:40Z" finished-at="2021-08-15T16:18:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC1@4386f16]" name="test1" duration-ms="25434" started-at="2021-08-14T20:14:20Z" finished-at="2021-08-14T20:14:46Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.testing.TestScripts.TC1@60d8c9b7]" name="test1" duration-ms="60008" started-at="2021-08-15T16:18:51Z" finished-at="2021-08-15T16:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.testing.TestScripts.TC1@4386f16]" name="after" is-config="true" duration-ms="453" started-at="2021-08-14T20:14:46Z" finished-at="2021-08-14T20:14:46Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@60d8c9b7]" name="close" is-config="true" duration-ms="1083" started-at="2021-08-15T16:19:51Z" finished-at="2021-08-15T16:19:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
+        </test-method> <!-- close -->
       </class> <!-- org.testing.TestScripts.TC1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

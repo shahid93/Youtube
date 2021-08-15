@@ -5,9 +5,9 @@
     <classes>
       <class name="org.testing.TestScripts.TC1">
         <methods>
+          <include name="close"/>
           <include name="test1"/>
-          <include name="after"/>
-          <include name="before"/>
+          <include name="init"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC1 -->
     </classes>
