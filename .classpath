@@ -74,5 +74,7 @@
 	<classpathentry kind="lib" path="D:/seleniumjava/poi-4.1.2/lib/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/seleniumjava/poi-4.1.2/ooxml-lib/curvesapi-1.06.jar"/>
 	<classpathentry kind="lib" path="D:/seleniumjava/poi-4.1.2/ooxml-lib/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/log4j/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shahi/Downloads/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

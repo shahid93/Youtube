@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import org.testing.Base.Base;
+import org.testing.Pages.Login;
+import org.testing.Pages.Logout;
+import org.testing.Utilities.LogsCapture;
 import org.testng.annotations.Test;
 
 public class TC7 extends Base {
@@ -12,28 +15,9 @@ public class TC7 extends Base {
 	public void test1() throws InterruptedException 
 	{
 
-		WebElement sign=driver.findElement(By.xpath(pr.getProperty("Signinbutton")));
-		sign.click();
-		Thread.sleep(3000);
-		WebElement email=driver.findElement(By.xpath(pr.getProperty("emailid")));
-		email.sendKeys("testshahid11@gmail.com");
-		System.out.println("Email got clicked");
-	
-	
-		System.out.println("Entered email");
-		WebElement next=driver.findElement(By.xpath(pr.getProperty("nextbutton")));
-		next.click();
-		Thread.sleep(5000);
-		
-		WebElement pass=driver.findElement(By.xpath(pr.getProperty("password")));
-		pass.sendKeys("8130704808");
-		Thread.sleep(5000);
-		System.out.println("Entered Password");
-		
-		WebElement pnext=driver.findElement(By.xpath(pr.getProperty("nextbutton2")));
-		pnext.click();
-		System.out.println("Logged in");
-		Thread.sleep(5000);
+		Login login=new Login(driver, pr);
+    	
+		login.signin("testshahid11@gmail.com", "8130704808");
 		
 		
 		WebElement Watchlater=driver.findElement(By.xpath(pr.getProperty("watchlater")));
@@ -41,13 +25,9 @@ public class TC7 extends Base {
 		Thread.sleep(2000);
 		System.out.println("clicked on watch later");
 		
-		WebElement button=driver.findElement(By.xpath(pr.getProperty("profilebutton")));
-		button.click();
-		Thread.sleep(5000);
-				
-		WebElement signout=driver.findElement(By.xpath(pr.getProperty("signout")));
-		signout.click();
-		System.out.println("Logout successfully");
+		Logout logout=new Logout(driver,pr);		
+		logout.signout();
+		LogsCapture.takeLogs("TC1","Logout successfully");
 		
 		
 	
